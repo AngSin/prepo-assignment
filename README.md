@@ -1,7 +1,6 @@
 ### Running the project
 
-- `docker compose build`
-- `docker compose up`
+- `docker-compose down && docker-compose build --pull && docker-compose up`
 - Importing all the WETH transfers will take some time please wait for the message "Nest application successfully started" before testing
 
 ### Testing
